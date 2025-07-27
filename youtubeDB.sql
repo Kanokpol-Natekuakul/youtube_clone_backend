@@ -122,7 +122,6 @@ INSERT INTO `channels` (`channel_id`, `channel_name`, `channel_banner_url`, `cha
 INSERT INTO `channels` (`channel_id`, `channel_name`, `channel_banner_url`, `channel_username`, `channel_description`, `channel_profile_picture`, `channel_created_at`, `channel_updated_at`) VALUES (2, 'TechInsights', 'techinsights.com/banner.jpg', '@techinsights', 'Deep dives into the latest technology trends.', 'techinsights.com/profile.jpg', '2025-07-27 20:59:39', '2025-07-27 20:59:39');
 INSERT INTO `channels` (`channel_id`, `channel_name`, `channel_banner_url`, `channel_username`, `channel_description`, `channel_profile_picture`, `channel_created_at`, `channel_updated_at`) VALUES (3, 'CodeMastery', 'codemastery.net/banner.png', '@codemastery', 'Learn programming with expert tutorials.', 'codemastery.net/profile.png', '2025-07-27 20:59:39', '2025-07-27 20:59:39');
 
-
 INSERT INTO `channel_subscribe` (`channel_id`, `user_id`) VALUES (1, 1);
 INSERT INTO `channel_subscribe` (`channel_id`, `user_id`) VALUES (2, 1);
 INSERT INTO `channel_subscribe` (`channel_id`, `user_id`) VALUES (3, 1);
